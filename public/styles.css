@@ -1,0 +1,162 @@
+body {
+    font-family: 'Gabarito', sans-serif;
+margin-left: 0;
+}
+
+#logo{
+    width: 25%;
+    margin: 50px auto;
+    display: block;
+}
+
+#first-block {
+    background-image: url(./images/blob1.png);
+    background-repeat: no-repeat;
+    background-size: auto 80%;
+    background-position: -700px 150px;
+}
+
+#second-block {
+ background-image: url(./images/blob2.png);
+ background-repeat: no-repeat;
+ background-size: auto 80%;
+ background-position: top 0px right -400px;
+ 
+}
+
+
+#third-block {
+    background-image: url(./images/blob3.png);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: top 0 left -250px;
+
+}
+
+#fourth-block{
+    background-image: url(./images/blob4.png);
+    background-repeat: no-repeat;
+    background-position: center top 80px;
+    background-size: auto 70%;
+}
+
+#title-block{
+    display: flex;
+    align-items: center;
+}
+
+
+#title {
+    margin-left: 15%;
+    font-size: 3rem;
+   
+}
+  
+
+#main-photo {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.about-description {
+    width: 70%;
+    margin: 2% auto;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.block-name{
+    text-align: center;
+    font-weight: 900;
+    font-size: 3rem;
+    margin: 8% 0 5%;
+
+}
+#cleaning {
+    display: flex;
+    align-items: center;
+}
+
+.p-description{
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+#cleaning-description {
+    margin-left: 15%;
+    width: 40%;
+}
+
+
+#cleaning-img {
+    margin-left:5%;
+}
+
+#organizing {
+    display: flex;
+    align-items: center;
+}
+#organizing-description {
+    margin-left: 15%;
+    width: 40%;
+}
+
+#organizing-img {
+    margin-left: 15%;
+}
+#pet {
+    display: flex;
+    align-items: center;
+}
+#pet-description {
+    margin-left: 15%;
+    width: 40%;
+}
+#pet-img{
+    margin-left:5%;
+    width: 25%;
+}
+
+#prices {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.p-price {
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+h3 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 1.8rem;
+}
+
+.contact-img{
+    display: block;
+    margin: auto;
+    width: 3%;
+
+}
+
+footer {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+.link{
+    margin:auto; text-align:center; display:block;
+    font-weight: 900;
+    font-size: 1.8rem;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+
+}
+.link:link {
+color: black;
+}
+.link:visited {
+    color: black;
+    }
