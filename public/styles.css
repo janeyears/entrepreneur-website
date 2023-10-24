@@ -1,6 +1,7 @@
 body {
     font-family: 'Gabarito', sans-serif;
     margin-left: 0;
+    margin-right: 0;
 }
 
 .language-switch {
@@ -72,13 +73,17 @@ body {
     margin-left: 15%;
     font-size: 3rem;
 }
+#title-mobile {
+    display: none;
+}
 
 
 #main-photo {
     width: 30%;
     margin: 0 auto;
-}
-
+  }
+  
+  
 .about-description {
     width: 70%;
     margin: 2% auto;
@@ -192,3 +197,157 @@ footer {
 .link:visited {
     color: black;
 }
+
+#prices-mobile {
+    display: none;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+   
+#logo {
+    width: 50%;
+} 
+.language-switch{
+position: static;
+display: block;
+text-align: center;
+}
+
+
+
+#title{
+display: none;
+}
+
+#title-mobile {
+display: block;
+margin-left: 15%;
+font-size: 2.5rem;
+text-align: center;
+margin-left: 0;
+}
+.about-description {
+    margin-left: 8%;
+}
+
+#title-block {
+    display: block;
+    margin-top: 20%;
+}
+
+
+#main-photo {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    align-content: center;
+  }
+  .block-name {
+    margin: 15% 0 5%;
+    font-size: 1.8rem;
+text-align: center;
+}
+
+#cleaning {
+    display: block;
+}
+
+
+#cleaning-description {
+    margin-left: 8%;
+    width: 80%;
+}
+
+#cleaning-img {
+   width: 50%;
+   display: block;
+   margin: 10% auto;
+}
+
+#organizing {
+    display: block;
+}
+
+#organizing-img {
+    width: 45%;
+    display: block;
+    margin: 10% auto;
+ 
+ }
+
+ #organizing-description {
+    margin-left: 5%;
+    width: 80%;
+}
+#pet {
+    display: block;
+}
+
+#pet-img {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+ 
+ }
+
+ #pet-description {
+    margin-left: 5%;
+    width: 80%;
+}
+
+#prices {
+    display: none;
+}
+
+#prices-mobile {
+    display: block;
+}
+
+.p-price {
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.p-price-p{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.contact-img{
+    width: 8%;
+}
+.link{
+    font-size: 1.5rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+footer {
+    font-size: 1rem;
+}
+
+
+#second-block {
+    background-image: url(./images/blob2.png);
+    background-repeat: no-repeat;
+    background-size: auto 80%;
+    background-position: top 320px right -250px;
+
+}
+
+#third-block {
+    background-image: none;
+
+
+}
+
+#fourth-block {
+    background-position: center top 40px;
+    background-size: auto 80%;
+}
+
+}
+
