@@ -202,7 +202,7 @@ footer {
     display: none;
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-device-width : 280px) and (max-device-width : 768px) {
    
 #logo {
     width: 50%;
@@ -361,7 +361,4 @@ footer {
     background-position: center top 40px;
     background-size: auto 80%;
 }
-
-
 }
-
