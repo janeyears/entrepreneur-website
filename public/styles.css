@@ -336,6 +336,12 @@ footer {
     font-size: 1rem;
 }
 
+#first-block {
+    background-image: url(./images/blob1.png);
+    background-repeat: no-repeat;
+    background-size: auto 60%;
+    background-position: -700px 150px;
+}
 
 #second-block {
     background-image: url(./images/blob2.png);
